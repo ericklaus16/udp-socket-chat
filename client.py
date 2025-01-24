@@ -5,8 +5,6 @@ import readline
 SERVER = "127.0.0.1"
 PORT = 1234
 
-messages = []
-
 def unpack_message(data):
     try:
         name_size = data[0]
